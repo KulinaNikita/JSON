@@ -1,8 +1,11 @@
 {
-    "timestamp": 1510417124782,
-    "status": 500,
-    "error": "Internal Server Error",
-    "exception": "com.netflix.hystrix.exception.HystrixRuntimeException",
-    "message": "ApplicationRepository#save(Application) failed and no fallback available.",
-    "path": "/application"
+  "отчет_ошибке" :
+	   {
+           "заголовок" : " имя_заголовок " ,
+	   "шаги_к_воспроизведению" : [ " шаг1 " , " шаг2 " , " шаг3 " ],
+	   "ожидаемый_результат" : " the_result_we_need " ,
+	   "фактический_результат" : " результат_которого_должен_быть " ,
+	   «коэффициент приоритета» : [ « Низкий » , « Средний » , « Высокий » ],
+	   «фактор серьезности» : [ « Незначительный » , « Незначительный » , « Основной » , « Критический » , « Блокирующий » ]
+	   }
 }
